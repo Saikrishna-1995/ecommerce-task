@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./header";
 import Footer from "./footer";
+import Products from "./products"
 import "./App.css";
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <div className="loader-section section-right"></div>
       </div>
       <Header />
+      <Products />
       <Footer />
     </div>
   );
